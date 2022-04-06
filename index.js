@@ -3,6 +3,7 @@ const fact_button = document.getElementById('btnFact')
 const res_area = document.getElementById('res_area')
 
 fib_button.addEventListener('click', () => {
+    document.getElementById('fact_number').value = "";
     const num_fib = document.getElementById('fib_number').value;
     var n1 = 0;
     var n2 = 1;
@@ -30,7 +31,7 @@ fib_button.addEventListener('click', () => {
 })
 
 fact_button.addEventListener('click', () => {
-    
+    document.getElementById('fib_number').value = "";
     const num_fact = document.getElementById('fact_number').value;
     console.log(num_fact);
     const res = factorial(num_fact);
