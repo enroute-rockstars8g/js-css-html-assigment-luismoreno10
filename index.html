@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,800;0,900;1,300;1,800&display=swap" rel="stylesheet">
     <title>My website!!</title>
 </head>
 <body>
@@ -23,34 +23,69 @@
     </header>
 
     <section class="row2">
-        <p>
-            texto
-        </p>
-        <p>
-            texto
-        </p>
-        <p>
-            texto
-        </p>
-        <p>
-            texto
-        </p>
+        <div class="texts">
+            <p>
+                I'm currently studying my last semester of Systems Information Engineering at Universidad de Sonora in Hermosillo, Sonora.
+            </p>
+            <p> I would love to dive in into the QA world in tech after graduating (or finishing this internship, hopefully).</p>
+            <p>
+                I enjoy iced coffee, occasional drinking during carnitas asadas and driving around town with my friends while singing horribly.
+            </p>
+            <p>
+                I like the tech field because of the adrenaline rush you get after compiling code with no errors and after having that "eureka" moment and solving the issue you've been having for days.
+            </p>
+            <p> Here's more stuff you can check out. Maybe we might have something in common :) </p>
+            <div class="lists">
+                <section class="list-left">
+                    <h4>Silly little TV shows</h4>
+                    <ul>
+                        <li>Superstore</li>
+                        <li>Schitt's Creek</li>
+                        <li>Friends</li>
+                        <li>Brooklyn Nine-Nine</li>
+                        <li>Modern Family</li>
+                        <li>The Office</li>
+                        <li>Dr. House</li>
+                    </ul>
+                </section>
+                <section class="list-right">
+                    <h4>Fav music artists</h4>
+                    <ul>
+                        <li>Taylor Swift (Yes, I'm a swiftie)</li>
+                        <li>Halsey</li>
+                        <li>Khalid</li>
+                        <li>Lorde</li>
+                        <li>The 1975</li>
+                        <li>Bleachers</li>
+                        <li>Bastille</li>
+                    </ul>
+                </section>
+            </div>
+            <p>Keep scrolling if you're bored...</p>
+        </div>
+        
     </section>
 
     <section class="row3">
         <section class="fibonacci-area">
-            Fibonacci
+            <h5>Fibonacci sequence</h5> 
+            <p id="text-row3">Enter a number:</p> 
+            <input id="fib_number" type="text" class="number"> <br>
+            <button id="btnFib" class="btn">Magic button</button>
         </section>
+
         <section class="factorial-area">
-            Factorial
+            <h5>Factorial numbers</h5>
+            <p id="text-row3">Enter a number:</p> 
+            <input id="fact_number" type="text" class="number"> <br>
+            <button id="btnFact" class="btn">Magic button</button>
         </section>
     </section>
 
-    <!-- name -->
-    <!-- description -->
-    <!-- DOM -->
-    <!-- Input y boton para serie de Fibonacco -->
-    <!-- BE ORIGINAL -->
-    <!-- Factorial -->
+    <section id="row4" class="row4">
+        <div id="res_area"></div>
+    </section>
+    <script src="index.js"></script>
+    <!-- pls hire me :) -->
 </body>
 </html>
